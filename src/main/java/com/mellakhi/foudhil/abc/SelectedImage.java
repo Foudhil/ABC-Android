@@ -7,7 +7,7 @@ public class SelectedImage extends AppCompatActivity {
     
     //TODO
     // ADD in XML
-    /*
+    
     RelativeLayout relativeLayout;
     Paint paint;
     View view;
@@ -15,7 +15,7 @@ public class SelectedImage extends AppCompatActivity {
     Bitmap bitmap;
     Canvas canvas;
     Button button;
-    */
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
