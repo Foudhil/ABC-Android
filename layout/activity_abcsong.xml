@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ABCSong"
+    android:background="@drawable/video_background">
+
+    <ImageView
+        android:id="@+id/videoUpper"
+        android:layout_width="195dp"
+        android:layout_height="141dp"
+        android:layout_alignTop="@+id/videoLower"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="146dp"
+        app:srcCompat="@drawable/uppercase" />
+
+    <ImageView
+        android:id="@+id/videoLower"
+        android:layout_width="195dp"
+        android:layout_height="141dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="66dp"
+        app:srcCompat="@drawable/lowercase" />
+
+    <ImageView
+        android:id="@+id/homeVideo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/home_button" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeVideo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="casual"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+</RelativeLayout>
